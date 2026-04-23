@@ -62,3 +62,31 @@
 .menu-link:hover::after, .menu-link:focus::after {
     width: 100%;
 }
+
+.label-busca input {
+    border: none;
+    outline: none;
+}
+
+.icone-busca {
+    display: flex;
+    align-items: center;
+
+    &::after {
+        content: "";
+        position: relative;
+        background-image: url("../assets/icones/busca.png");
+        background-repeat: no-repeat;
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.botao-login {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
