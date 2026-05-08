@@ -2,9 +2,9 @@
 @import url("./css/destaque.css");
 
 :root {
- 
-     /* Cores */
- 
+
+    /* Cores */
+
     --cor-primaria-dark: #c13724;
     --cor-primaria-light: #ee6451;
     --cor-secundaria-light: #fff5eb;
@@ -17,12 +17,12 @@
     --cor-neutra-light: #ffffff;
 
     /* Tipografia */
-    
+
     --font-sigmar: "Sigmar", sans-serif;
     --font-poppins: "Poppins", sans-serif;
 
     /* Tamanhos de fonte */
-    
+
     --font-size-xxxl: 4.5rem;
     --font-size-xxl: 2.625rem;
     --fonte-size-xl: 2.438rem;
@@ -33,11 +33,11 @@
     --fonte-size-s: 0.813rem;
 
     /* Altura da linhas */
-    
+
     --line-height: 120%;
 
     /* Espaçamentos */
-    
+
     --padding-xs: 0.25rem;
     --padding-s: 0.5rem;
     --padding-m: 1rem;
@@ -56,6 +56,34 @@
     --gap-xxl: 2.5rem;
     --gap-xxxl: 6rem;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: var(--font-sigmar);
+    line-height: var(--line-height);
+}
+
+h1 {
+    font-size: var(--font-size-xxxl);
+}
+h2 {
+    font-size: var(--font-size-xxl);
+}
+h3 {
+    font-size: var(--font-size-xl);
+}
+h4 {
+    font-size: var(--font-size-l);
+}
+h5 {
+    font-size: var(--font-size-xm);
+}
+
+
+
 
 body {
     font-family: var(--font-poppins);
